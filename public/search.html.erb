@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en" ng-app="jbApp">
+<head>
+  <meta charset="utf-8">
+  <title>Justbooks Search</title>
+
+
+  <script src="/jquery.js"></script>
+  <script src="/angular.js"></script>
+  <script src="/app.js"></script>
+</head>
+<body>
+  <div ng-controller='BookSearchCtrl'>
+        <h1>{{welcome}}</h1>
+        <input ng-model="fast"/>
+        <ol>
+        <h4><span>Books Available </span></h4>
+          <li ng-repeat='x in books | filter:fast'>
+            <dl>
+              <div>
+              Title:
+              {{x.title}}
+              <dt>Author</dt>
+              <dd>{{x.author}}</dd>
+              <dt>Price</dt>
+              <dd>{{x.price}}</dd>
+              <dt>Language</dt>
+              <dd>{{x.language}}</dd>
+              <dt>Category</dt>
+              <dd>{{x.category}}</dd>
+              </div>
+            </dl>
+          </li>
+        </ol>
+    </div>
+
+</body>
+</html>

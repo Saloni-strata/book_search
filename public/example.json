@@ -1,0 +1,42 @@
+[  
+   {  
+      "title":"Tinkle Single Digest",
+      "author":"Johny",
+      "price":"400",
+      "language":"English",
+      "category":"Young Reders-Comic",
+      "image":"/book.jpg"
+   },
+   {  
+      "title":"Revolution 2020",
+      "author":"Chetan Bhagat",
+      "price":"250",
+      "language":"Hindi",
+      "category":"Fiction - Indian Writing",
+      "image":"/book2.jpg"
+   },
+   {  
+      "title":"Inferno",
+      "author":"Dan Brown",
+      "price":"300",
+      "language":"English",
+      "category":"Fiction-Mystery and Thrillers",
+      "image":"/book4.jpg"
+   },
+   {  
+      "title":"HEROES OF OLYMPUS: THE SON OF NEPTUNE",
+      "author":"RICK RIORDAN",
+      "price":"350",
+      "language":"Telgu",
+      "category":"Young Readers - Teens",
+      "image":"/book5.jpg"
+   },
+   {  
+      "title":"DIARY OF A WIMPY KID (2) : RODRICK RULES",
+      "author":"KINNEY, JEFF",
+      "price":"200",
+      "language":"Telgu",
+      "category":"Young Readers - Kids",
+      "image":"/book3.jpg"
+   }
+]
